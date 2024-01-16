@@ -15,6 +15,5 @@ public class CamelRoutes extends RouteBuilder {
                 .to("http://localhost:3000/linkedin")
                 .log("Data retrieved from Linkedin server :${body}")
                 .to("log:myLogger?level=INFO");
-
     }
 }
