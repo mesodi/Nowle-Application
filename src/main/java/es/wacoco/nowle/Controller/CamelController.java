@@ -13,9 +13,9 @@ public class CamelController {
         this.camelService = camelService;
     }
 
-    @GetMapping("/patent")
+    @GetMapping("/patentService")
     public String getPatent(){
-        return camelService.patentRoute();
+        return camelService.patentServiceRoute();
     }
     @GetMapping("/linkedin")
     public String getLinkedin(){
