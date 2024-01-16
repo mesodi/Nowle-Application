@@ -18,7 +18,7 @@ public class CamelService {
     public CamelService(CamelContext camelContext) {
         this.camelContext = camelContext;
     }
-    public String patentRoute(){
+    public String patentServiceRoute(){
         try{
             ProducerTemplate producerTemplate= camelContext.createProducerTemplate();
             String response=producerTemplate.requestBody("direct:patent",null, String.class);
