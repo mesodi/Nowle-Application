@@ -15,4 +15,4 @@ cd /home/ec2-user/
     docker rm springbootcamel
 mvn package .
 docker build -t backend .
-docker run -d --name springbootcamel -p 8080:8080 springbootcamel
+docker run -d --name springbootcamel -p 8080:8080 johnnie3000/camel:springbootcamel
