@@ -1,4 +1,4 @@
-package com.wacoco.nowle;
+package es.wacoco.nowle;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
